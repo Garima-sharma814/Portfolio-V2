@@ -1,0 +1,8 @@
+.mini-projects{
+    display: grid;
+    grid-template-columns: 450px 450px;
+}
+
+.mini-projects .date{
+    transform: rotate(46deg);
+}

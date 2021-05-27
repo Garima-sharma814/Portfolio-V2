@@ -153,12 +153,16 @@ p {
 .image-sec {
   margin: auto;
 }
+
 .image-sec img {
   /* border: 6px solid var(--black); */
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .social-sec {
@@ -192,12 +196,12 @@ p {
 
 .project-sec {
   /* background: linear-gradient(to left top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)); */
-  color: var(--black) !important;
+  color: var(--black);
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
-  ) !important;
+  );
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);
   padding: 20px;
   border-radius: 2rem;
@@ -206,6 +210,18 @@ p {
   display: flex;
 }
 
+.purple{
+  background-color: var(--purple);
+  color: var(--text-blue);
+}
+.wheat{
+  background-color: var(--wheat);
+  color: var(--text-brown);
+}
+.seagreen{
+  background-color: var(--seaGreen);
+  color: var(--black);
+}
 .project-sec img {
   width: 340px;
   height: 200px;
