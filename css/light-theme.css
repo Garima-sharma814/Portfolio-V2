@@ -184,14 +184,8 @@ p {
   color: var(--Head-dark);
 }
 
-.card {
-  color: var(--black);
-  text-decoration: none;
-}
-
 /* Blog and Project Section */
 .project-sec:hover {
-  /* box-shadow: 0 0.4rem 1.4rem 0 rgba(160, 171, 177, 0.5); */
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }

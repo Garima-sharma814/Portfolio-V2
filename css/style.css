@@ -189,15 +189,9 @@ p {
   color: var(--Head-dark);
 }
 
-.card {
-  color: white;
-  text-decoration: none;
-}
-
 /* Project and BLog section */
 
 .project-sec:hover {
-  /* box-shadow: 0 0.4rem 1.4rem 0 rgba(160, 171, 177, 0.5); */
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -272,10 +266,6 @@ div .a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-ul img:hover {
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
 }
 
 .fab {
