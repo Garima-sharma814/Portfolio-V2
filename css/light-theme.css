@@ -2,7 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Satisfy&display=swap");
 
 :root {
-  --youtube-color: red;
+  --seaGreen: #aadcda;
+  --lightGreen: #e2e8ff;
+  --wheat: #ffeec4;
+  --purple: #dacdff;
+  --text-blue: #2c1867;
+  --text-brown: #5a4610;
   --black: #212529;
   --white: #f9f9f9;
   --Head: #ea8282;
