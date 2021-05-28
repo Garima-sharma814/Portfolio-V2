@@ -6,6 +6,7 @@
   --lightGreen: #e2e8ff;
   --wheat: #ffeec4;
   --purple: #dacdff;
+  --pink:#f7a4be;
   --text-blue: #2c1867;
   --text-brown: #5a4610;
   --black: #212529;
@@ -114,7 +115,12 @@ body {
   width: 100%;
   left: 0;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: rgb(236, 232, 232);
+  border-radius: 1rem;
+}
 .active {
   font-size: 2rem;
   font-weight: bold;
@@ -192,6 +198,7 @@ p {
 .project-sec:hover {
   transform: translateY(-0.1rem);
   transition: transform 150ms;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);
 }
 
 .project-sec {
@@ -202,7 +209,6 @@ p {
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
   );
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);
   padding: 20px;
   border-radius: 2rem;
   margin: 0.9rem;
@@ -220,6 +226,10 @@ p {
 }
 .seagreen{
   background-color: var(--seaGreen);
+  color: var(--black);
+}
+.pink{
+  background-color: var(--pink);
   color: var(--black);
 }
 .project-sec img {
@@ -352,7 +362,7 @@ hr {
 
 /* Toogle bar  */
 .theme {
-  position: absolute;
+  position: fixed;
   right: 74px;
 }
 

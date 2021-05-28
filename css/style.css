@@ -14,6 +14,7 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
   font-size: 10px;
@@ -25,10 +26,6 @@ body {
   color: white;
 }
 
-.light-theme {
-  background-color: var(--white);
-  color: black;
-}
 
 /* LAYOUT OF THE PAGE */
 .layout {
@@ -41,20 +38,17 @@ body {
   max-width: 1000px;
   padding: 2rem 4rem;
   margin: 0 auto;
-  /* background-color: white; */
 }
 
 /* NAV BAR */
 .nav {
   display: flex;
   flex-direction: column;
-  /* background-color: #49a1eb; */
   align-items: center;
 }
 
 .nav-brand {
   text-decoration: none;
-  /* color: var(--white); */
   background: linear-gradient(
     271deg,
     #a0e9ff 30%,
@@ -70,7 +64,6 @@ body {
 .nav-h1 {
   font-size: 5rem;
   line-height: 7rem;
-  /* margin-bottom: 1rem; */
   margin-top: 0;
   font-weight: 500;
 }
@@ -80,6 +73,14 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   margin-top: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: rgb(63, 60, 60);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .nav-items {
@@ -105,9 +106,6 @@ body {
   width: 0%;
   height: 4px;
   background-color: whitesmoke;
-  /* background: linear-gradient(
-        271deg
-        ,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%); */
   left: 50%;
   bottom: -5px;
   transition: all 0.4s cubic-bezier(0.22, 1.22, 0.21, 1.22);
@@ -192,13 +190,13 @@ p {
 .project-sec:hover {
   transform: translateY(-0.1rem);
   transition: transform 150ms;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);  
 }
 
 .project-sec {
   /* background: linear-gradient(to left top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)); */
   color: #fff !important;
   background: #2a2c2f !important;
-  /* box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);   */
   padding: 20px;
   border-radius: 2rem;
   margin: 0.9rem;
@@ -287,10 +285,6 @@ ul i:hover {
   text-align: center;
 }
 
-.margin {
-  margin: 0 1rem;
-}
-
 .marginp {
   margin: 0 20px;
 }
@@ -334,7 +328,7 @@ hr {
 
 /* Toogle bar  */
 .theme {
-  position: absolute;
+  position: fixed;
   right: 74px;
 }
 
@@ -375,4 +369,21 @@ hr {
 }
 .fa-sun {
   color: #f1c404;
+}
+
+/* Hovers  */
+.twitter:hover{
+  color: rgb(29, 161, 242);
+}
+.instagram:hover{
+  color: rgb(29, 161, 242);
+}
+.dev:hover{
+  color: rgb(29, 161, 242);
+}
+.linked-in:hover{
+  color: rgb(29, 161, 242);
+}
+.facebook:hover{
+  color: rgb(29, 161, 242);
 }
