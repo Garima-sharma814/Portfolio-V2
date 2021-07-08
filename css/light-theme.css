@@ -6,6 +6,7 @@
   --lightGreen: #e2e8ff;
   --wheat: #ffeec4;
   --purple: #dacdff;
+  --pink:#f7a4be;
   --text-blue: #2c1867;
   --text-brown: #5a4610;
   --black: #212529;
@@ -52,6 +53,10 @@ body {
   flex-direction: column;
   /* background-color: #49a1eb; */
   align-items: center;
+}
+
+#navbar{
+  z-index: 50;
 }
 
 .nav-brand {
@@ -114,7 +119,12 @@ body {
   width: 100%;
   left: 0;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: rgb(236, 232, 232);
+  border-radius: 1rem;
+}
 .active {
   font-size: 2rem;
   font-weight: bold;
@@ -153,12 +163,16 @@ p {
 .image-sec {
   margin: auto;
 }
+
 .image-sec img {
   /* border: 6px solid var(--black); */
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .social-sec {
@@ -184,27 +198,21 @@ p {
   color: var(--Head-dark);
 }
 
-.card {
-  color: var(--black);
-  text-decoration: none;
-}
-
 /* Blog and Project Section */
 .project-sec:hover {
-  /* box-shadow: 0 0.4rem 1.4rem 0 rgba(160, 171, 177, 0.5); */
   transform: translateY(-0.1rem);
   transition: transform 150ms;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);
 }
 
 .project-sec {
   /* background: linear-gradient(to left top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)); */
-  color: var(--black) !important;
+  color: var(--black);
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
-  ) !important;
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);
+  );
   padding: 20px;
   border-radius: 2rem;
   margin: 0.9rem;
@@ -212,6 +220,22 @@ p {
   display: flex;
 }
 
+.purple{
+  background-color: var(--purple);
+  color: var(--text-blue);
+}
+.wheat{
+  background-color: var(--wheat);
+  color: var(--text-brown);
+}
+.seagreen{
+  background-color: var(--seaGreen);
+  color: var(--black);
+}
+.pink{
+  background-color: var(--pink);
+  color: var(--black);
+}
 .project-sec img {
   width: 340px;
   height: 200px;
@@ -342,9 +366,13 @@ hr {
 
 /* Toogle bar  */
 .theme {
-  position: absolute;
+  position: fixed;
   right: 74px;
 }
+
+.theme:hover{
+  z-index: 100;
+} 
 
 .checkbox {
   opacity: 0;
@@ -383,4 +411,24 @@ hr {
 }
 .fa-sun {
   color: #f1c404;
+}
+
+/* Hovers  */
+.twitter:hover{
+  color: rgb(29, 161, 242);
+}
+.instagram:hover{
+  color: #cc4dbb;
+}
+.dev:hover{
+  color: black
+}
+.linked-in:hover{
+  color: #0177b5;
+}
+.facebook:hover{
+  color: #3c5a99;
+}
+.github:hover{
+  color: #000;
 }
