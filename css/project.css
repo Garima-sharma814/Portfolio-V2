@@ -6,3 +6,17 @@
 .mini-projects .date{
     transform: rotate(46deg);
 }
+
+
+/* media Queries */
+@media (max-width: 938px){
+
+    .mini-projects{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mini-projects .project-sec{
+        margin: 30px 20px;
+    }
+  }

@@ -28,7 +28,7 @@ function applyTheme(value) {
 		theme.href = "/css/style.css";
 		btn.checked = false;
 	}
-}
+};
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {

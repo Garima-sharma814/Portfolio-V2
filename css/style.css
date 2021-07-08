@@ -45,6 +45,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 20;
+}
+
+#navbar{
+  z-index: 50;
 }
 
 .nav-brand {
@@ -330,6 +335,11 @@ hr {
 .theme {
   position: fixed;
   right: 74px;
+  z-index: 30;
+}
+
+.theme:hover{
+  z-index: 100;
 }
 
 .checkbox {
@@ -376,14 +386,21 @@ hr {
   color: rgb(29, 161, 242);
 }
 .instagram:hover{
-  color: rgb(29, 161, 242);
+  color: #cc4dbb;
 }
 .dev:hover{
-  color: rgb(29, 161, 242);
+  color: black
 }
 .linked-in:hover{
-  color: rgb(29, 161, 242);
+  color: #0177b5;
 }
 .facebook:hover{
-  color: rgb(29, 161, 242);
+  color: #3c5a99;
 }
+.github:hover{
+  color: #000;
+}
+
+  
+
+

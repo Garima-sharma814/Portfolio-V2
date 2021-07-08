@@ -55,6 +55,10 @@ body {
   align-items: center;
 }
 
+#navbar{
+  z-index: 50;
+}
+
 .nav-brand {
   text-decoration: none;
   /* color: var(--black); */
@@ -366,6 +370,10 @@ hr {
   right: 74px;
 }
 
+.theme:hover{
+  z-index: 100;
+} 
+
 .checkbox {
   opacity: 0;
   position: absolute;
@@ -403,4 +411,24 @@ hr {
 }
 .fa-sun {
   color: #f1c404;
+}
+
+/* Hovers  */
+.twitter:hover{
+  color: rgb(29, 161, 242);
+}
+.instagram:hover{
+  color: #cc4dbb;
+}
+.dev:hover{
+  color: black
+}
+.linked-in:hover{
+  color: #0177b5;
+}
+.facebook:hover{
+  color: #3c5a99;
+}
+.github:hover{
+  color: #000;
 }
