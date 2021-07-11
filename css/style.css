@@ -438,7 +438,7 @@ hr {
   }
   .project-sec{
   margin: 60px 0;
-  width: 273px;
+  width: 350px;
   display: block;
   }
   .date {
@@ -471,5 +471,10 @@ hr {
   margin: auto;
   margin-top: 25px;
   border-radius: 0;
+}
+
+.social-sec ul{
+  margin: auto;
+  margin-top: 4px;
 }
 }
