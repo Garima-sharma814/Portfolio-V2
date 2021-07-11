@@ -176,7 +176,10 @@ p {
 .social-sec {
   margin: 4rem 0;
   display: flex;
-  flex-direction: row;
+}
+
+.social-sec ul{
+  padding-left: 0;
 }
 
 /* SECTIONS */
@@ -391,6 +394,7 @@ hr {
 .dev:hover{
   color: black
 }
+
 .linked-in:hover{
   color: #0177b5;
 }
@@ -426,7 +430,7 @@ hr {
 
 @media  (max-width: 460px){
   .nav-brand {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .nav-sub-title {
     font-size: 1.7rem;
@@ -452,6 +456,7 @@ hr {
 @media (max-width: 768px) and (max-width: 460px){
   .head-para{
     text-align: center;
+    margin: auto;
   }
   .h1{
     text-align: center;
@@ -461,5 +466,10 @@ hr {
   }
   header{
     margin: 2rem 0;
+}
+.project-sec{
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 0;
 }
 }
