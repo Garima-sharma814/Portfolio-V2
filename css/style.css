@@ -111,6 +111,7 @@ body {
   width: 0%;
   height: 4px;
   background-color: whitesmoke;
+  color: whitesmoke;
   left: 50%;
   bottom: -5px;
   transition: all 0.4s cubic-bezier(0.22, 1.22, 0.21, 1.22);
