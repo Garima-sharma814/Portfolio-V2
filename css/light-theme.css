@@ -108,7 +108,8 @@ body {
   content: "";
   width: 0%;
   height: 4px;
-  /* background-color: whitesmoke; */
+  /* background-color: whitesmoke;
+  color: whitesmoke; */
   background: var(--Head-dark);
   left: 50%;
   bottom: -5px;
@@ -431,4 +432,93 @@ hr {
 }
 .github:hover{
   color: #000;
+}
+
+/* media Queries */
+@media (max-width: 768px){
+  .image-sec img{
+    display: none;
+  }
+  .nav-brand {
+    font-size: 3.5rem;
+  }
+  .h1{
+    margin: -12px;
+  }
+  .nav-sub-title {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  #navbar {
+    flex-wrap: wrap;
+    display: flex;
+    grid-gap: 0;
+    justify-content: center;
+  }
+  .label {
+    height: 17px;
+    width: 30px;
+  }
+  .ball {
+    width: 13px;
+    height: 13px;
+  }
+  .checkbox:checked + .label .ball {
+    transform: translateX(13px);
+  }
+}
+  
+
+@media  (max-width: 500px){
+  .nav-brand {
+    font-size: 3rem;
+  }
+  .nav-sub-title {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+  .project-sec{
+  margin: 60px 0;
+  width: 90%;
+  display: block;
+  }
+  .date {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .sections h3 {
+    font-size: 1.9rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 500px){
+  .head-para{
+    text-align: center;
+    margin: auto;
+  }
+  .h1{
+    text-align: center;
+  }
+  .theme{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  header{
+    margin: 2rem 0;
+}
+.project-sec{
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.social-sec ul{
+  margin: auto;
+  margin-top: 4px;
+}
 }

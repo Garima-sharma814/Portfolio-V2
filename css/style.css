@@ -395,7 +395,6 @@ hr {
 .dev:hover{
   color: black
 }
-
 .linked-in:hover{
   color: #0177b5;
 }
@@ -406,6 +405,9 @@ hr {
   color: #000;
 }
 
+
+
+/* media Queries */
 @media (max-width: 768px){
   .image-sec img{
     display: none;
@@ -425,6 +427,14 @@ hr {
     display: flex;
     grid-gap: 0;
     justify-content: center;
+  }
+  .label {
+    height: 17px;
+    width: 30px;
+  }
+  .ball {
+    width: 13px;
+    height: 13px;
   }
 }
   
@@ -463,7 +473,9 @@ hr {
     text-align: center;
   }
   .theme{
-    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
   }
   header{
     margin: 2rem 0;
@@ -471,6 +483,7 @@ hr {
 .project-sec{
   margin: auto;
   margin-top: 25px;
+  margin-bottom: 15px;
   border-radius: 0;
 }
 
