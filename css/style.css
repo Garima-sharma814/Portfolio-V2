@@ -415,6 +415,7 @@ hr {
   .nav-brand {
     font-size: 3.5rem;
   }
+
   .h1{
     margin: -12px;
   }
@@ -439,9 +440,11 @@ hr {
   .checkbox:checked + .label .ball {
     transform: translateX(13px);
   }
+  .sections .a{
+    font-size: 12px;
+  }
 }
   
-
 @media  (max-width: 460px){
   .nav-brand {
     font-size: 3rem;

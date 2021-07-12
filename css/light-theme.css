@@ -466,6 +466,9 @@ hr {
   .checkbox:checked + .label .ball {
     transform: translateX(13px);
   }
+  .sections .a{
+    font-size: 12px;
+  }
 }
   
 
