@@ -369,6 +369,7 @@ hr {
 .theme {
   position: fixed;
   right: 74px;
+  z-index: 30;
 }
 
 .theme:hover{
@@ -509,6 +510,7 @@ hr {
     position: fixed;
     top: 10px;
     left: 10px;
+
   }
   header{
     margin: 2rem 0;
