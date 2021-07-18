@@ -443,34 +443,7 @@ hr {
   .sections .a{
     font-size: 12px;
   }
-}
-  
-@media  (max-width: 460px){
-  .nav-brand {
-    font-size: 3rem;
-  }
-  .nav-sub-title {
-    font-size: 1.7rem;
-    font-weight: 300;
-  }
-  .project-sec{
-  margin: 60px 0;
-  width: 90%;
-  display: block;
-  }
-  .date {
-    font-size: 1rem;
-    margin-left: 1rem;
-  }
-  .sections h3 {
-    font-size: 1.9rem;
-  }
-  p{
-    font-size: 1.3rem;
-  }
-}
 
-@media (max-width: 768px) and (max-width: 460px){
   .head-para{
     text-align: center;
     margin: auto;
@@ -497,4 +470,29 @@ hr {
   margin: auto;
   margin-top: 4px;
 }
+}
+  
+@media  (max-width: 460px){
+  .nav-brand {
+    font-size: 3rem;
+  }
+  .nav-sub-title {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+  .project-sec{
+  margin: 60px 0;
+  width: 90%;
+  display: block;
+  }
+  .date {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .sections h3 {
+    font-size: 1.9rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
 }
