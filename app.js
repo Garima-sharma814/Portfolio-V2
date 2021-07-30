@@ -47,5 +47,4 @@ function myFunction() {
   }
 }
 
-mediaScreen.addEventListener('change', screenTest);
 
