@@ -498,4 +498,9 @@ hr {
   .container {
     padding: 2rem 0;
   }
+  .blog-h1{
+    font-size: 3.5rem;
+      text-align: center;
+      color: var(--Head)
+  }
 }
