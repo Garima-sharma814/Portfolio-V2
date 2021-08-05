@@ -503,4 +503,10 @@ hr {
       text-align: center;
       color: var(--Head)
   }
+  .nav-item{
+    font-size: 1.4rem;
+  }
+  .active{
+    font-size: 1.5rem;
+  }
 }
