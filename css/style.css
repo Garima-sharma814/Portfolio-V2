@@ -445,7 +445,7 @@ hr {
   }
 
   .head-para{
-    text-align: center;
+    text-align: justify;
     margin: auto;
   }
   .h1{
@@ -491,7 +491,6 @@ hr {
   }
   .sections h3 {
     font-size: 1.9rem;
-    text-align: center;
   }
   p{
     font-size: 1.3rem;
@@ -502,7 +501,8 @@ hr {
   .blog-h1{
     font-size: 3.5rem;
       text-align: center;
-      color: var(--Head)
+      color: var(--Head);
+      margin: 0;
   }
   .nav-item{
     font-size: 1.4rem;
