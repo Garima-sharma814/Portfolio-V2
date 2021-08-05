@@ -495,4 +495,7 @@ hr {
   p{
     font-size: 1.3rem;
   }
+  .container {
+    padding: 2rem 0;
+  }
 }
