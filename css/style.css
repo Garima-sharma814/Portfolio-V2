@@ -409,6 +409,9 @@ hr {
 
 /* media Queries */
 @media (max-width: 768px){
+  .layout{
+    padding: 0;
+  }
   .image-sec img{
     display: none;
   }
@@ -496,7 +499,7 @@ hr {
     font-size: 1.3rem;
   }
   .container {
-    padding: 2rem 0;
+    padding: 0;
   }
   .blog-h1{
     font-size: 3.5rem;
