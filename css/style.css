@@ -329,6 +329,8 @@ hr {
   cursor: pointer;
   text-decoration: none;
   color: var(--Head);
+  transition: all 0.4s cubic-bezier(0.22, 1.22, 0.21, 1.22);
+  font-weight: 100;
 }
 
 .sections .a:hover {
