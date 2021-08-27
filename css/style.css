@@ -465,10 +465,12 @@ hr {
     margin: 2rem 0;
 }
 .project-sec{
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 15px;
   border-radius: 0;
+  border: 1px solid #44484a;
+  margin: 15px auto;
+  width: 97%;
+  display: block;
+  border-radius: 0.5rem;
 }
 
 .social-sec ul{
@@ -486,22 +488,36 @@ hr {
     font-weight: 300;
   }
   .project-sec{
-  margin: 60px auto;
-  width: 90%;
-  display: block;
+    border-radius: 0;
+    border: 1px solid #44484a;
+    margin: 15px auto;
+    width: 95%;
+    display: block;
+    border-radius: 0.5rem;
+    padding: 20px 10px;
   }
   .date {
-    font-size: 1rem;
+    font-size: 10px;
     margin-left: 1rem;
+    font-weight: 100;
   }
   .sections h3 {
+    margin: 0;
     font-size: 1.7rem;
+    line-height: normal;
+    margin-bottom: 10px;
   }
   p{
     font-size: 1.3rem;
   }
+  .marginp{
+    margin: 0;
+  }
   .container {
     padding: 0;
+  }
+  .flex{
+    flex-direction: column;
   }
   .blog-h1{
     font-size: 3.5rem;

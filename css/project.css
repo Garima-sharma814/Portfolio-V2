@@ -20,3 +20,13 @@
         margin: 30px 20px;
     }
   }
+
+  @media (max-width: 767px){
+    .mini-projects .project-sec{
+        margin: 15px auto;
+    }
+
+    .mini-projects .date{
+        transform: none;
+    }
+  }
