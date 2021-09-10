@@ -83,6 +83,7 @@ body {
 .sticky {
   position: fixed;
   top: 0;
+  transition: all 0.4s cubic-bezier(0.22, 1.22, 0.21, 1.22);
   background-color: rgb(63, 60, 60);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
