@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Satisfy&display=swap");
 
 :root {
-  --black: #212529;
+  --black: #090a0b;
   --white: #f9f9f9;
-  --Head: #ea8282;
-  --Head-dark: #c56363;
+  --Head: #faff00;
+  --Head-dark: #DDE000;
 }
 
 * {
@@ -200,7 +200,7 @@ p {
 .project-sec:hover {
   transform: translateY(-0.1rem);
   transition: transform 150ms;
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);  
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.384);
 }
 
 .project-sec {
@@ -479,7 +479,7 @@ hr {
   margin-top: 4px;
 }
 }
-  
+
 @media  (max-width: 460px){
   .nav-brand {
     font-size: 3rem;
